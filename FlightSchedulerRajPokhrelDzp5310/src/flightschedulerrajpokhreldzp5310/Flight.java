@@ -3,13 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package flightscheduler;
+package flightschedulerrajpokhreldzp5310;
 
 /**
  *
  * @author Raj
  */
-public class Database 
-{
+public class Flight {
     
 }

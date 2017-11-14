@@ -3,20 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package flightscheduler;
+package flightschedulerrajpokhreldzp5310;
 
 /**
  *
  * @author Raj
  */
-public class FlightScheduler 
-{
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public class Booking {
     
 }

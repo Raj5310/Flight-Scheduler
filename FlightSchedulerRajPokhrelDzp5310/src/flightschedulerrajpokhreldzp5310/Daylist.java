@@ -3,11 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package flightschedulerrajpokhreldzp5310;
 
 /**
  *
  * @author Raj
  */
-class Waitlist {
+public class Daylist {
     
 }

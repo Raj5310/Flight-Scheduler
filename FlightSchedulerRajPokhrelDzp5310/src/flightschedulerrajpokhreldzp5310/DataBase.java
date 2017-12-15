@@ -15,15 +15,19 @@ import java.sql.SQLException;
 public class DataBase 
 {
     private static Connection connection;
-    private final static String DB_URL = "jdbc:derby://localhost:1527/FlightSchedule";
+    private final static String DB_URL = "jdbc:derby://localhost:1527/FlightSchedulerDBrajpokhreldzp5310";
     
+    /**
+     * Helper method that allow you to connect to Database from anywhere
+     * @return 
+     */
     public static Connection getConnection() 
     {
         if (connection == null) 
         {
             try
             {
-                connection = DriverManager.getConnection(DB_URL, "java", "pennstate");
+                connection = DriverManager.getConnection(DB_URL, "java", "java");
             } 
             catch (SQLException ex) 
             {
@@ -33,5 +37,4 @@ public class DataBase
     
         return connection;
     }
-    
 }
